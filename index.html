@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niyet Lokma - Hayır Lokması'nda 45 Yıldır Değişmeyen Lezzet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sticky Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <img src="images/niyet1.png" alt="Niyet Lokma Logo" class="nav-logo">
+                    Niyet Lokma
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="hakkimizda.html" class="nav-link">Hakkımızda</a>
+                <a href="fiyat-listesi.html" class="nav-link">Fiyat Listesi</a>
+                <a href="galeri.html" class="nav-link">Galeri</a>
+                <a href="iletisim.html" class="nav-link">İletişim</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Niyet Lokma; Hayır Lokması'nda Yıllardır Değişmeyen Lezzet ve Kalite</h1>
+            <p class="hero-subtitle">İstanbul'un Her Yerinde, Dilediğiniz Tarih ve Saatte, Niyet Lokma ile Taptaze ve Sıcak Hayır Lokması Dökünün</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-phone" id="phone-btn">
+                    <span class="btn-text">0507 923 37 37</span>
+                </a>
+                <a href="#" class="btn btn-whatsapp" id="whatsapp-btn">
+                    <span class="btn-text">Whatsapp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="video-container">
+            <div class="video-content">
+                <div class="video-text">
+                    <h2 class="video-title">
+                        <span class="highlight">SİZ NİYET EDİN ;</span>
+                        <br>
+                        <span class="highlight">BİZ VESİLE OLALIM</span>
+                        <br>
+                        <span class="highlight-secondary">Yıllardır Değişmeyen Lezzet ve Kalite</span>
+                    </h2>
+                    <p class="video-description">
+                        Ana maddesini undan, sudan ve mayadan alan lokma, geleneklerimize göre hayır günlerinde ikram olarak dağıtılır.
+                    </p>
+                    <p class="video-description">
+                        İstanbul'da sizlerin belirlediği adreste mobil aracımız ile dilediğiniz gün ve saatte istediğiniz konumda sizin adınıza halkımıza ücretsiz hayır lokması dökülür.
+                    </p>
+                    <p class="video-description highlight-text">
+                        Fiyat ve rezervasyon oluşturmayı unutmayın.
+                    </p>
+                </div>
+                <div class="video-player">
+                    <video class="hero-video" controls>
+                        <source src="videos/video1.mp4" type="video/mp4">
+                        <source src="videos/video1.webm" type="video/webm">
+                        Tarayıcınız video oynatmayı desteklemiyor.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Carousel Section -->
+    <section class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <div class="carousel-slide active">
+                    <img src="images/aa1.jpg" alt="Lokma" class="carousel-image image-aa1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/IMG-20250823-WA0038.jpg" alt="Lokma" class="carousel-image image-wa0038">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/IMG-20250823-WA0039.jpg" alt="Lokma" class="carousel-image image-wa0039">
+                </div>
+                <div class="carousel-slide">
+                    <img src="images/IMG-20250823-WA0040.jpg" alt="Lokma" class="carousel-image image-wa0040">
+                </div>
+                <!-- Video slides will be added here -->
+                <!-- Example video slide structure:
+                <div class="carousel-slide">
+                    <video class="carousel-video" controls>
+                        <source src="videos/video1.mp4" type="video/mp4">
+                        <source src="videos/video1.webm" type="video/webm">
+                        Tarayıcınız video oynatmayı desteklemiyor.
+                    </video>
+                </div>
+                -->
+            </div>
+            <button class="carousel-btn prev-btn" onclick="changeSlide(-1)">❮</button>
+            <button class="carousel-btn next-btn" onclick="changeSlide(1)">❯</button>
+            <div class="carousel-dots">
+                <span class="dot active" onclick="goToSlide(1)"></span>
+                <span class="dot" onclick="goToSlide(2)"></span>
+                <span class="dot" onclick="goToSlide(3)"></span>
+                <span class="dot" onclick="goToSlide(4)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="services-container">
+            <h2 class="services-title">Hizmetlerimiz</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/lokmaaa.jpg" alt="Hayır Lokması" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-name">Hayır Lokması</h3>
+                        <p class="service-description">Hayır lokması, İslam geleneğinde sevap kazanmak ve paylaşmanın bereketini yaşamak amacıyla dağıtılan tatlı bir ikramdır. Genellikle cami çıkışlarında, özel günlerde veya hayır organizasyonlarında halka sunulur.
+                            Niyet Lokma olarak biz, geleneksel tariflerle hazırladığımız lokmaları hijyenik koşullarda, taze ve lezzetli bir şekilde sizlere ulaştırıyoruz.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/tavukpilavvv.jpg" alt="Mevlüt Pilavı" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-name">Mevlüt Pilavı</h3>
+                        <p class="service-description">Mevlüt pilavı, ister mevlüt, sünnet, cenaze, düğün ya da özel bir gün olsun, Türk kültürünün vazgeçilmez lezzetlerinden biridir. Firmamız aracılığıyla vereceğiniz siparişlerle hayır pilavı ikramınızı kolayca gerçekleştirebilir, özel günlerinizi daha anlamlı hale getirebilirsiniz.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/çorba.jpg" alt="Hayır Çorbası" class="service-img">
+                    </div>
+                    <div class="service-content">
+                        <h3 class="service-name">Hayır Çorbası</h3>
+                        <p class="service-description">Hayır çorbası, kandillerde, mevlütlerde, ramazan aylarında, düğünlerde ve cenazelerde en çok tercih edilen ikramlardan biridir. Cami çıkışlarında ve hayır amaçlı etkinliklerde sıcak olarak dağıtılır.
+                            Biz de sizlere, en uygun fiyatla hijyenik koşullarda hazırlanmış hayır çorbası ikram hizmeti sunuyoruz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews-section">
+        <div class="reviews-container">
+            <div class="reviews-content">
+                <div class="reviews-text">
+                    <h2 class="reviews-title">Müşteri memnuniyetimiz %99'un üzerinde!</h2>
+                    <p class="reviews-description">Google'da yüzlerce olumlu yorumla, hizmetlerimizden memnun müşterilerimizle gurur duyuyoruz. Müşteri yorumlarımızı okuyarak neden bizi tercih ettiklerini öğrenin!</p>
+                    
+                            <div class="reviews-rating">
+                                <div class="google-rating-box">
+                                    <div class="google-logo">
+                                        <img src="logo/google.png" alt="Google" class="google-logo-img-large">
+                                    </div>
+                                    <span class="rating-score">5,0</span>
+                                </div>
+                        <div class="stars">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    
+                    <a href="https://share.google/bj520VM8cdMdto25H" target="_blank" class="reviews-button">
+                        Google Yorumlarımıza Bakın
+                    </a>
+                </div>
+                
+                <div class="reviews-carousel">
+                    <button class="carousel-btn prev-btn" onclick="changeReview(-1)">‹</button>
+                    
+                    <div class="reviews-slider">
+                        <div class="review-card active">
+                            <div class="review-header">
+                                <div class="review-user">
+                                    <div class="user-avatar">İ</div>
+                                    <div class="user-info">
+                                        <span class="user-name">İrem Karacı</span>
+                                        <span class="review-date">21.09.2025</span>
+                                    </div>
+                                </div>
+                                <div class="google-icon">
+                                    <img src="logo/google.png" alt="Google" class="google-logo-img">
+                                </div>
+                            </div>
+                            <div class="review-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="verified">✓</span>
+                            </div>
+                            <p class="review-text">İşini doğru yapan, dikkatli, güler yüzlü ve çok temiz bir firma. Hizmetlerinden çok memnunum, herkese tavsiye ederim.</p>
+                        </div>
+                        
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div class="review-user">
+                                    <div class="user-avatar">S</div>
+                                    <div class="user-info">
+                                        <span class="user-name">Salim Aydın</span>
+                                        <span class="review-date">22.09.2025</span>
+                                    </div>
+                                </div>
+                                <div class="google-icon">
+                                    <img src="logo/google.png" alt="Google" class="google-logo-img">
+                                </div>
+                            </div>
+                            <div class="review-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="verified">✓</span>
+                            </div>
+                            <p class="review-text">Çabanız için teşekkürler. Güler yüzlü hizmet, temiz ve titiz çalışma, mükemmel lezzet.</p>
+                        </div>
+                        
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div class="review-user">
+                                    <div class="user-avatar">Y</div>
+                                    <div class="user-info">
+                                        <span class="user-name">Yasin Şaşmaz</span>
+                                        <span class="review-date">23.09.2025</span>
+                                    </div>
+                                </div>
+                                <div class="google-icon">
+                                    <img src="logo/google.png" alt="Google" class="google-logo-img">
+                                </div>
+                            </div>
+                            <div class="review-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="verified">✓</span>
+                            </div>
+                            <p class="review-text">Selamlar arkadaşlar, bugün yorum yazma günüm. Hijyenik ve lezzetli lokma yapan, güzel servis eden niyet lokmacısını tavsiye ederim.</p>
+                        </div>
+                        
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div class="review-user">
+                                    <div class="user-avatar">E</div>
+                                    <div class="user-info">
+                                        <span class="user-name">Emre Poyrazlı</span>
+                                        <span class="review-date">24.09.2025</span>
+                                    </div>
+                                </div>
+                                <div class="google-icon">
+                                    <img src="logo/google.png" alt="Google" class="google-logo-img">
+                                </div>
+                            </div>
+                            <div class="review-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="verified">✓</span>
+                            </div>
+                            <p class="review-text">Personel güler yüzlü ve saygılı, mekan temiz ve hijyenik. Yediğim lokma en iyisi ve en çıtırıydı, şerbet kıvamı mükemmeldi. Tavsiye ederim.</p>
+                        </div>
+                        
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div class="review-user">
+                                    <div class="user-avatar">H</div>
+                                    <div class="user-info">
+                                        <span class="user-name">Hasan Temürezen</span>
+                                        <span class="review-date">25.09.2025</span>
+                                    </div>
+                                </div>
+                                <div class="google-icon">
+                                    <img src="logo/google.png" alt="Google" class="google-logo-img">
+                                </div>
+                            </div>
+                            <div class="review-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="verified">✓</span>
+                            </div>
+                            <p class="review-text">Güvenilir ve ahlaklı bir firma. Lezzetli ve kaliteli ürünler sunuyor. Çekinmeden sipariş verebileceğiniz bir işletme. Teşekkürler, başarılar.</p>
+                        </div>
+                        
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div class="review-user">
+                                    <div class="user-avatar">S</div>
+                                    <div class="user-info">
+                                        <span class="user-name">Sayit Mete Gökbulut</span>
+                                        <span class="review-date">26.09.2025</span>
+                                    </div>
+                                </div>
+                                <div class="google-icon">
+                                    <img src="logo/google.png" alt="Google" class="google-logo-img">
+                                </div>
+                            </div>
+                            <div class="review-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="verified">✓</span>
+                            </div>
+                            <p class="review-text">Hizmet mükemmel, lezzet mükemmel. Ellerinize emeğinize sağlık. Güvenle tavsiye ederim.</p>
+                        </div>
+                        
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div class="review-user">
+                                    <div class="user-avatar">İ</div>
+                                    <div class="user-info">
+                                        <span class="user-name">İsmail Ünal</span>
+                                        <span class="review-date">27.09.2025</span>
+                                    </div>
+                                </div>
+                                <div class="google-icon">
+                                    <img src="logo/google.png" alt="Google" class="google-logo-img">
+                                </div>
+                            </div>
+                            <div class="review-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="verified">✓</span>
+                            </div>
+                            <p class="review-text">Profesyonel ve deneyimli personel, güler yüzlü hizmet, dürüst ve güvenilir kişilikler. Her zaman bir telefon kadar yakın. Tavsiye ederim.</p>
+                        </div>
+                        
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div class="review-user">
+                                    <div class="user-avatar">Ö</div>
+                                    <div class="user-info">
+                                        <span class="user-name">Ömer Çelik</span>
+                                        <span class="review-date">28.09.2025</span>
+                                    </div>
+                                </div>
+                                <div class="google-icon">
+                                    <img src="logo/google.png" alt="Google" class="google-logo-img">
+                                </div>
+                            </div>
+                            <div class="review-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="verified">✓</span>
+                            </div>
+                            <p class="review-text">Hizmet, kalite ve lezzet açısından aranabilecek her şeyi sunan güler yüzlü bir işletme. Fiyatlar da çok uygun. Kesinlikle tavsiye ederim.</p>
+                        </div>
+                        
+                        <div class="review-card">
+                            <div class="review-header">
+                                <div class="review-user">
+                                    <div class="user-avatar">M</div>
+                                    <div class="user-info">
+                                        <span class="user-name">Mehmet Yılmaz</span>
+                                        <span class="review-date">29.09.2025</span>
+                                    </div>
+                                </div>
+                                <div class="google-icon">
+                                    <img src="logo/google.png" alt="Google" class="google-logo-img">
+                                </div>
+                            </div>
+                            <div class="review-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="verified">✓</span>
+                            </div>
+                            <p class="review-text">Niyet lokması sipariş ettim, çok memnun kaldım. Temiz, hijyenik ve lezzetli. Personel çok ilgili ve güler yüzlü. Kesinlikle tavsiye ederim.</p>
+                        </div>
+                    </div>
+                    
+                    <button class="carousel-btn next-btn" onclick="changeReview(1)">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- References Section -->
+    <section class="references-section">
+        <div class="references-container">
+            <h2 class="references-title">Referans Firmalarımız</h2>
+            <p class="references-subtitle">Geçmişte Hayırlarına Ortak Olduklarımız</p>
+            
+            <div class="references-description">
+                <p>İstanbul'un her noktasına hizmet vermekte olan Niyet Lokma; profesyonel ekibi, son teknoloji ekipmanları ve hijyen esaslı hizmet anlayışıyla birinci sınıf lokma üretimi ve halka eşzamanlı lokma dağıtımı yapmaktadır.</p>
+                
+                <p>Portföyünde büyük firmaları da barındıran Niyet Lokma, özel tasarımlı araçları ile siz hayırseverlerin hizmetinde.</p>
+            </div>
+            
+            <div class="references-logos">
+                <div class="reference-item">
+                    <div class="reference-logo">
+                        <img src="logo/arıcıoğlu.png" alt="Arıcıoğlu Otomotiv" class="company-logo">
+                    </div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-logo">
+                        <img src="logo/Irak Plastik.png" alt="Irak Plastik" class="company-logo">
+                    </div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-logo">
+                        <img src="logo/aklargross.png" alt="Aklargross" class="company-logo">
+                    </div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-logo">
+                        <img src="logo/happycenter.png" alt="Happycenter" class="company-logo">
+                    </div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-logo">
+                        <img src="logo/civil.png" alt="Civil" class="company-logo">
+                    </div>
+                </div>
+                
+                <div class="reference-item">
+                    <div class="reference-logo">
+                        <img src="logo/elvan.png" alt="Elvan" class="company-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2 class="faq-title">Hayır Lokması Dağıtımında Merak Edilenler</h2>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Hayır lokması nedir?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Hayır lokması, İslam geleneğinde sevap kazanmak amacıyla başkalarına ikram edilen tatlı veya yemek türüdür. Genellikle cami çıkışlarında, özel günlerde veya hayır işlerinde dağıtılır.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Hayır lokması nasıl yapılır?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Hayır lokması, hamur işi tatlılar olarak hazırlanır. Hamur mayalandırıldıktan sonra şekillendirilir, kızartılır ve şerbet ile tatlandırılır. Şerbet olarak kesinlikle glikoz şurubu kullanılmamaktadır %100 pancar şekerinden şerbetimizi kendimiz yapmaktayız.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Cami çıkışında lokma dağıtmak için izin almam gerekiyor mu?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Evet, cami çıkışında lokma dağıtmak için cami yönetiminden izin almanız gerekmektedir. Bu, düzen ve güvenlik açısından önemlidir.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Hayır lokması dağıtmak için izin almam gerekiyor mu?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Genel olarak hayır lokması dağıtımı için özel bir izin gerekmez, ancak toplu dağıtımlarda yerel yönetim kurallarına uygun hareket etmek önemlidir.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Hayır lokmasında glikoz kullanıyor musunuz?</span>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Hayır, Niyet Lokma olarak glikoz kullanmıyoruz. Geleneksel tariflerimizde doğal şeker ve bal kullanarak sağlıklı ve lezzetli lokmalar hazırlıyoruz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Sol Sütun: Çalışma Saatleri -->
+            <div class="footer-column">
+                <h3 class="footer-title">ÇALIŞMA SAATLERİ</h3>
+                <p class="footer-text">
+                    Tabak, Çatal, Peçete, Tarçın, Pudra Şekeri, Özel Led Yazısı, Kuran Tilaveti ve İlahi Dinletisi, 2 Tane Lokma Ustası, İstenilen Yerde ve Saatte Hizmet
+                </p>
+            </div>
+            
+            <!-- Orta Sütun: Hizmetlerimiz -->
+            <div class="footer-column">
+                <h3 class="footer-title">HİZMETLERİMİZ</h3>
+                <ul class="footer-services">
+                    <li>HAYIR LOKMASI</li>
+                    <li>MEVLÜT PİLAVI</li>
+                    <li>HAYIR ÇORBASI</li>
+                </ul>
+            </div>
+            
+            <!-- Sağ Sütun: Sosyal Medya -->
+            <div class="footer-column">
+                <h3 class="footer-title">SOSYAL MEDYA</h3>
+                <div class="social-contact">
+                    <a href="https://wa.me/905079233737" target="_blank" class="social-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                        </svg>
+                        <span>0507 923 37 37</span>
+                    </a>
+                    <a href="https://www.instagram.com/niyetlokma/" target="_blank" class="social-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        <span>niyetlokma</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Alt Kısım: Copyright -->
+        <div class="footer-bottom">
+            <div class="footer-container">
+                <p class="copyright">© 2025 | Niyet Lokma</p>
+            </div>
+        </div>
+        
+        <!-- Dekoratif Lokma Resimleri -->
+        <div class="footer-decoration">
+            <div class="lokma-decoration lokma-left"></div>
+            <div class="lokma-decoration lokma-right"></div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
